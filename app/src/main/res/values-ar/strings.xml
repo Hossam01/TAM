@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TAM</string>
+    <string name="phonenumber">البريد الالكتروني</string>
+    <string name="password">الرقم السري</string>
+    <string name="forgetpassword">نسيت كلمه المرور</string>
+    <string name="Signin">تسجيل الدخول</string>
+
+
+
+
+</resources>

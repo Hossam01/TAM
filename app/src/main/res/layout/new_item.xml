@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_10sdp"
+    android:background="@color/transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_181sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:cardBackgroundColor="@color/transparent"
+
+        >
+
+        <ImageView
+            android:id="@+id/product"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_130sdp"
+            android:src="@drawable/product"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_25sdp"/>
+
+        <ImageView
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fav"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+
+            />
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/star"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            />
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:text="5.5"
+            android:textColor="@color/black"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#1a1a1a"
+            android:lineSpacingExtra="-2sp"
+            android:text="Narcissa 3"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="12sp"
+            android:textColor="#202020"
+            android:layout_marginTop="@dimen/_55sdp"
+            android:layout_gravity="center"
+            android:text="Shop Name"
+            />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="12sp"
+            android:textColor="#1a1a1a"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:layout_gravity="center"
+            android:text="KWD 16"
+            />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
